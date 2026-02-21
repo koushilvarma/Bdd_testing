@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.example.TestCucumber" time="0.307" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\KOUSHIL VARMA\OneDrive\Desktop\projects\testng\target\test-classes;C:\Users\KOUSHIL VARMA\OneDrive\Desktop\projects\testng\target\classes;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\KOUSHIL VARMA\AppData\Local\Temp\surefire13027694582171112009\surefirebooter-20260221094819582_3.jar C:\Users\KOUSHIL VARMA\AppData\Local\Temp\surefire13027694582171112009 2026-02-21T09-48-19_402-jvmRun1 surefire-20260221094819582_1tmp surefire_0-20260221094819582_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\KOUSHIL VARMA\OneDrive\Desktop\projects\testng\target\test-classes;C:\Users\KOUSHIL VARMA\OneDrive\Desktop\projects\testng\target\classes;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KOUSHIL VARMA\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\KOUSHIL VARMA\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\KOUSHIL VARMA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\KOUSHIL VARMA\OneDrive\Desktop\projects\testng"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\KOUSHIL VARMA\AppData\Local\Temp\surefire13027694582171112009\surefirebooter-20260221094819582_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+    <property name="user.name" value="KOUSHIL VARMA"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\KOUSHIL VARMA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KOUSHI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="C:\Users\KOUSHIL VARMA\OneDrive\Desktop\projects\testng"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\KOUSHIL VARMA\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\KOUSHIL VARMA\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python313\Scripts\;C:\Python313\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21.0.10\bin;C:\Program Files\nodejs\;C:\Users\KOUSHIL VARMA\AppData\Local\Microsoft\WindowsApps;C:\Users\KOUSHIL VARMA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3\bin;;C:\Program Files\nodejs;C:\Users\KOUSHIL VARMA\AppData\Roaming\npm;c:\Users\KOUSHIL VARMA\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;C:\maven\apache-maven-3.9.5\bin;C:\maven\apache-maven-3.9.12\bin;maven\apache-maven-3.9.12\bin;maven\apache-maven-3.9.12\bin;maven\apache-maven-3.9.12\bin;maven\apache-maven-3.9.12\bin;maven\apache-maven-3.9.12\bin;C:\Users\KOUSHIL VARMA\OneDrive\Desktop\projects\testng\maven\apache-maven-3.9.12\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Sunday is not Friday" classname="Day Checking" time="0.123">
+    <system-out><![CDATA[
+Scenario: Sunday is not Friday                &amp#27;[90m# features/DayCheck.feature:2&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is Sunday&amp#27;[0m                       &amp#27;[90m# org.example.Days.today_is_sunday()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether it's Friday&amp#27;[0m              &amp#27;[90m# org.example.Days.i_ask_whether_it_s_friday()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"No, it's not Friday"&amp#27;[0m &amp#27;[90m# org.example.Days.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful login" classname="Login Functionality" time="0.009">
+    <system-out><![CDATA[
+Scenario: Successful login                     &amp#27;[90m# features/LoginCheck.feature:3&amp#27;[0m
+User navigates to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on login page&amp#27;[0m                  &amp#27;[90m# org.example.LoginSteps.user_is_on_login_page()&amp#27;[0m
+User enters valid credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters valid username and password&amp#27;[0m &amp#27;[90m# org.example.LoginSteps.user_enters_valid_username_and_password()&amp#27;[0m
+User is redirected to home page
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should be redirected to home page&amp#27;[0m  &amp#27;[90m# org.example.LoginSteps.user_should_be_redirected_to_home_page()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
